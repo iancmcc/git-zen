@@ -2,6 +2,6 @@
 Usage
 ========
 
-To use gitzen in a project::
+To use git-zen in a project::
 
 	import gitzen
