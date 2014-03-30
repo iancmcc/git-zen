@@ -1,3 +1,5 @@
 wheel==0.22.0
 gitflow
 requests
+py
+unittest2

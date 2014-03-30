@@ -31,9 +31,14 @@ setup(
     package_dir={'gitzen': 'gitzen'},
     include_package_data=True,
     install_requires=[
+        "py",
         "gitflow",
-        "requests"
+        "requests",
     ],
+    entry_points="""
+    [console_scripts]
+    git-zen = gitzen.gitzen:main
+    """,
     license="BSD",
     zip_safe=False,
     keywords='gitzen',
